@@ -195,6 +195,19 @@
                                 "type": "basic"
                             },
                             {
+                                "from": {
+                                    "key_code": "equal_sign",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "non_us_backslash",
+                                        "modifiers": ["shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
                                 "from": { "key_code": "open_bracket" },
                                 "to": [
                                     {
@@ -423,6 +436,19 @@
                                     {
                                         "key_code": "period",
                                         "modifiers": ["shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": ["option", "shift"]
                                     }
                                 ],
                                 "type": "basic"
