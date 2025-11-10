@@ -235,6 +235,14 @@
                             {
                                 "from": {
                                     "key_code": "open_bracket",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [{ "key_code": "open_bracket" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "open_bracket",
                                     "modifiers": { "mandatory": ["option", "shift"] }
                                 },
                                 "to": [
@@ -256,6 +264,14 @@
                                     "modifiers": { "mandatory": ["shift"] }
                                 },
                                 "to": [{ "key_code": "keypad_asterisk" }],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "close_bracket",
+                                    "modifiers": { "mandatory": ["option"] }
+                                },
+                                "to": [{ "key_code": "close_bracket" }],
                                 "type": "basic"
                             },
                             {
@@ -598,6 +614,22 @@
                                 "to": [
                                     {
                                         "key_code": "a",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {
+                                        "mandatory": ["control"],
+                                        "optional": ["any"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
                                         "modifiers": ["left_command"]
                                     }
                                 ],
